@@ -1,6 +1,6 @@
 import Expenses from "./components/udemyReact/Expenses";
 
-function App(props) {
+cosnt App = (props) => {
   const expenses = [
     {
       id: 'e1',
@@ -22,6 +22,12 @@ function App(props) {
       date: new Date(2021, 5, 12),
     },
   ];
+
+  // return React.createElement('div',{},
+  // React.createElement('h2',{},"Let's get started!"),
+  // React.createElement(Expenses,{ item:expenses })
+  //   );
+
   return (
     <div>
       <h2>Let's get started!</h2>

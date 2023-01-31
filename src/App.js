@@ -1,6 +1,6 @@
 import Expenses from "./components/udemyReact/Expenses";
 
-cosnt App = (props) => {
+function App (props) {
   const expenses = [
     {
       id: 'e1',

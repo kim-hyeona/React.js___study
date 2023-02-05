@@ -1,4 +1,5 @@
 import Expenses from "./components/udemyReact/Expenses";
+import NewExpense from "./components/udemyReact/NewEX/NewExpense";
 
 function App (props) {
   const expenses = [
@@ -30,7 +31,7 @@ function App (props) {
 
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense/>
      <Expenses item={expenses}/>
     </div>
   );

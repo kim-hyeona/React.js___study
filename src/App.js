@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+
+/* import React, { useState } from "react";
 
 import Expenses from "./components/udemyReact/Expenses";
 import NewExpense from "./components/udemyReact/NewEX/NewExpense";
@@ -33,9 +34,10 @@ const App = () => {
       return [expense, ...PrevExpenses]
     })
   }
-}
+} */
 
 
+import ReactBasicMemo from "./ReactBasicMemo"
 
 function App (props) {
   
@@ -47,8 +49,9 @@ function App (props) {
 
   return (
     <div>
-      <NewExpense onAddExpense={addExpenseHandler}/>
-     <Expenses item={expenses}/>
+     {/*  <NewExpense onAddExpense={addExpenseHandler}/>
+     <Expenses item={expenses}/> */}
+     <ReactBasicMemo/>
     </div>
   );
 }
